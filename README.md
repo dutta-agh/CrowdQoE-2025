@@ -42,13 +42,33 @@ CrowdQoE-2025/
 │   └── links.md         ← Google Drive download link
 │
 ├── experiment_A/        ← Full source code for Experiment A
-│   ├── index.html
+│   ├── index.php        ← Homepage with ITU-T P.910 Guidelines 
+│   ├── int.php          ← Check Internet Speed (Minimum 40 Mbps)
+│   ├── nq-int.php       ← Not Qualify with Minimum Internet Speed
+│   ├── res.php          ← Check Monitor/ Screen Resolution (Minimum Full HD 1920×1080) 
+│   ├── nq-res.php       ← Not Qualify with Minimum Monitor/ Screen Resolution
+│   ├── info.php         ← Questionnaire (Country, Age, Gender, Education Group, Education Type, Mood, Tiredness, Interests)
+│   ├── qoe.php          ← Warning to Start Video Sequences (Assessment)
+│   ├── video.php        ← One by one, videos are fetching from the config.xlsx file (Random Order Sequence)
+│   ├── vote.php         ← Each of the videos with a 5-point Absolute Category Rating (ACR) Scale (Excellent, Good, Fair, Poor, or Bad)
+│   ├── tq.php           ← Assessment Successfully Completed & Thank you for Participation
+│   ├── vote_data.csv    ← Collecting the Vote Data from the User/ Participants/ Viewer (Unique Session ID, Timestamp in UTC, Response Time in ms)
 │   ├── css/
 │   ├── js/
 │   └── php/
 │
 ├── experiment_B/        ← Full source code for Experiment B
-│   ├── index.html
+│   ├── index.php        ← Homepage with ITU-T P.910 Guidelines 
+│   ├── int.php          ← Check Internet Speed (Minimum 40 Mbps)
+│   ├── nq-int.php       ← Not Qualify with Minimum Internet Speed
+│   ├── res.php          ← Check Monitor/ Screen Resolution (Minimum Full HD 1920×1080) 
+│   ├── nq-res.php       ← Not Qualify with Minimum Monitor/ Screen Resolution
+│   ├── info.php         ← Questionnaire (Country, Age, Gender, Education Group, Education Type, Mood, Tiredness, Interests)
+│   ├── qoe.php          ← Warning to Start Video Sequences (Assessment)
+│   ├── video.php        ← One by one, videos are fetching from the config.xlsx file (Pseudo-Random Order Sequence)
+│   ├── vote.php         ← Each of the videos with a 5-point Absolute Category Rating (ACR) Scale (Excellent, Good, Fair, Poor, or Bad)
+│   ├── tq.php           ← Assessment Successfully Completed & Thank you for Participation
+│   ├── vote_data.csv    ← Collecting the Vote Data from the User/ Participants/ Viewer (Unique Session ID, Timestamp in UTC, Response Time in ms)
 │   ├── css/
 │   ├── js/
 │   └── php/
